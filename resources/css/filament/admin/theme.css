@@ -1,0 +1,128 @@
+@import '../../../../vendor/filament/filament/resources/css/theme.css';
+
+:root {
+    --sidebar-width: 250px;
+    --font-family: 'Inter', sans-serif;
+}
+
+/* Sidebar Styling */
+.fi-sidebar {
+    @apply bg-white border-r border-gray-200;
+}
+
+.fi-sidebar-header {
+    @apply bg-white border-b border-gray-200 px-6 py-4;
+}
+
+.fi-sidebar-item {
+    @apply text-gray-600 hover:text-primary-600 hover:bg-primary-50 rounded-lg transition-colors duration-200;
+}
+
+.fi-sidebar-item-active {
+    @apply bg-primary-50 text-primary-600;
+}
+
+/* Main Content Area */
+.fi-main {
+    @apply bg-gray-50;
+}
+
+/* Top Navigation */
+.fi-topbar {
+    @apply bg-white border-b border-gray-200;
+}
+
+/* Section Styling */
+.fi-section {
+    @apply bg-white rounded-xl border border-gray-200 shadow-sm;
+}
+
+/* Table Styling */
+.fi-ta-header {
+    @apply bg-white text-gray-900 border-b border-gray-200;
+}
+
+.fi-ta-content {
+    @apply bg-white rounded-xl shadow-sm;
+}
+
+/* Button Styling */
+.fi-btn-color-primary {
+    @apply bg-primary-600 hover:bg-primary-500 focus:ring-primary-500/50 text-white;
+}
+
+/* Form Elements */
+.fi-input {
+    @apply rounded-lg border-gray-300 focus:border-primary-500 focus:ring-primary-500/50;
+}
+
+.fi-select {
+    @apply rounded-lg border-gray-300 focus:border-primary-500 focus:ring-primary-500/50;
+}
+
+/* Badge Styling */
+.fi-badge {
+    @apply rounded-full px-2.5 py-0.5 text-xs font-medium;
+}
+
+.fi-badge-success {
+    @apply bg-green-100 text-green-700;
+}
+
+.fi-badge-warning {
+    @apply bg-yellow-100 text-yellow-700;
+}
+
+.fi-badge-danger {
+    @apply bg-red-100 text-red-700;
+}
+
+/* Card Styling */
+.fi-card {
+    @apply bg-white rounded-xl border border-gray-200 shadow-sm;
+}
+
+/* Stats Overview Widget */
+.fi-wi-stats-overview-stat {
+    @apply bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow duration-200;
+}
+
+/* Navigation */
+.fi-navigation-item {
+    @apply text-gray-600 hover:text-primary-600 hover:bg-primary-50;
+}
+
+.fi-navigation-item-active {
+    @apply bg-primary-50 text-primary-600;
+}
+
+/* Dropdown Menus */
+.fi-dropdown-panel {
+    @apply bg-white rounded-lg border border-gray-200 shadow-lg;
+}
+
+/* Modal Styling */
+.fi-modal-window {
+    @apply bg-white rounded-xl shadow-xl;
+}
+
+/* Header Actions */
+.fi-header-heading {
+    @apply text-2xl font-bold text-gray-900;
+}
+
+.fi-form-component-label {
+    @apply font-medium text-gray-700;
+}
+
+.fi-btn {
+    @apply rounded-lg font-medium shadow-sm transition-all duration-200;
+}
+
+.fi-header {
+    @apply bg-white border-b border-gray-200;
+}
+
+.fi-simple-layout {
+    @apply bg-gray-50;
+} 

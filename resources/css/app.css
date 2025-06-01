@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '../../vendor/filament/filament/resources/css/theme.css';
+
+@layer base {
+    body {
+        @apply font-inter text-navy-800;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-playfair;
+    }
+}
+
+@layer components {
+    .btn-primary {
+        @apply bg-gold-400 text-navy-900 hover:bg-gold-500 px-6 py-3 rounded-md font-medium transition duration-150 ease-in-out;
+    }
+    
+    .btn-secondary {
+        @apply bg-navy-700 text-gold-400 hover:bg-navy-600 px-6 py-3 rounded-md font-medium transition duration-150 ease-in-out;
+    }
+    
+    .nav-link {
+        @apply text-navy-100 hover:text-gold-400 px-3 py-2 text-sm font-medium transition duration-150 ease-in-out;
+    }
+}
+
+:root {
+    --font-family: 'Inter', sans-serif;
+}
+
+.fi-sidebar {
+    @apply bg-white shadow-sm border-r border-gray-200;
+}
+
+.fi-sidebar-header {
+    @apply bg-white border-b border-gray-200 px-6 py-4;
+}
+
+.fi-sidebar-nav {
+    @apply px-6 py-4;
+}
+
+.fi-sidebar-item {
+    @apply rounded-lg transition-colors duration-200;
+}
+
+.fi-sidebar-item-active {
+    @apply bg-primary-50 text-primary-600;
+}
+
+.fi-main {
+    @apply bg-gray-50;
+}
+
+.fi-topbar {
+    @apply bg-white border-b border-gray-200;
+}
+
+.fi-section {
+    @apply bg-white rounded-xl border border-gray-200 p-6 shadow-sm;
+}
+
+.fi-ta-content {
+    @apply bg-white rounded-xl shadow-sm;
+}
+
+.fi-btn {
+    @apply rounded-lg font-medium shadow-sm transition-colors duration-200;
+}
+
+.fi-btn-color-primary {
+    @apply bg-primary-600 text-white hover:bg-primary-500 focus:ring-primary-500/50;
+}
+
+.fi-input {
+    @apply rounded-lg border-gray-300 shadow-sm;
+}
+
+.fi-badge {
+    @apply rounded-full px-2.5 py-0.5 text-xs font-medium;
+}
+
+.fi-badge-success {
+    @apply bg-green-100 text-green-700;
+}
+
+.fi-badge-warning {
+    @apply bg-yellow-100 text-yellow-700;
+}
+
+.fi-badge-danger {
+    @apply bg-red-100 text-red-700;
+}

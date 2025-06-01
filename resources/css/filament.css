@@ -1,0 +1,174 @@
+@import '../../vendor/filament/filament/resources/css/theme.css';
+
+/* Base Styles */
+:root {
+    --font-family: 'Inter', 'sans-serif';
+}
+
+/* Sidebar Styling */
+.fi-sidebar {
+    @apply bg-navy-800 border-r border-navy-700 !important;
+}
+
+.fi-sidebar-header {
+    @apply bg-navy-900 border-navy-700 !important;
+}
+
+.fi-sidebar-header-brand {
+    @apply text-gold-400 !important;
+}
+
+.fi-sidebar-item a {
+    @apply text-white/80 hover:bg-navy-700 hover:text-gold-400 !important;
+}
+
+.fi-sidebar-item-active a {
+    @apply bg-navy-700 text-gold-400 !important;
+}
+
+/* Main Content Area */
+.fi-main {
+    @apply bg-navy-50 !important;
+}
+
+.fi-topbar {
+    @apply bg-white border-b border-navy-200 !important;
+}
+
+/* Buttons */
+.fi-btn {
+    @apply rounded-lg transition-all duration-200 !important;
+}
+
+.fi-btn-color-primary {
+    @apply bg-navy-700 text-white hover:bg-navy-600 focus:ring-navy-500/50 !important;
+}
+
+/* Forms and Inputs */
+.fi-input-wrp {
+    @apply bg-white border-navy-200 rounded-lg transition-colors duration-200 !important;
+}
+
+.fi-input {
+    @apply bg-white text-navy-900 !important;
+}
+
+.fi-input::placeholder {
+    @apply text-navy-400 !important;
+}
+
+.fi-input-wrp:focus-within {
+    @apply border-primary-600 ring-1 ring-primary-600/20 !important;
+}
+
+.fi-fo-field-wrp-label {
+    @apply text-navy-900 font-medium !important;
+}
+
+.fi-fo-field-wrp-hint {
+    @apply text-navy-500 !important;
+}
+
+/* Modal Windows */
+.fi-modal-window {
+    @apply bg-white rounded-xl shadow-xl !important;
+}
+
+/* Login Page */
+.fi-simple-layout {
+    @apply min-h-screen bg-gradient-to-br from-navy-900 to-navy-800;
+}
+
+.fi-simple-main {
+    @apply w-full max-w-md mx-auto p-8;
+}
+
+.fi-simple-card {
+    @apply bg-white/5 backdrop-blur-lg rounded-2xl border border-white/10 shadow-2xl p-8;
+}
+
+.fi-logo {
+    @apply text-3xl font-playfair font-semibold text-gold-400 text-center mb-8;
+}
+
+.fi-input:focus {
+    @apply ring-0;
+}
+
+.fi-label {
+    @apply text-white/70 font-medium;
+}
+
+.fi-btn {
+    @apply bg-gold-400 text-navy-900 font-semibold rounded-lg px-6 py-3 transition-all duration-200;
+}
+
+.fi-btn:hover {
+    @apply bg-gold-500 transform -translate-y-0.5;
+}
+
+.fi-checkbox {
+    @apply border-white/20 bg-white/5;
+}
+
+.fi-checkbox:checked {
+    @apply bg-gold-400 border-gold-400;
+}
+
+.fi-password-input-suffix {
+    @apply text-white/50 hover:text-white/70 transition-colors duration-200;
+}
+
+/* Tables */
+.fi-ta-header-cell {
+    @apply bg-navy-50 text-navy-700 !important;
+}
+
+.fi-ta-cell {
+    @apply text-navy-600 !important;
+}
+
+/* Cards and Sections */
+.fi-section {
+    @apply bg-white rounded-xl border-navy-200 !important;
+}
+
+.fi-section-header-heading {
+    @apply text-navy-900 !important;
+}
+
+.fi-section-header-description {
+    @apply text-navy-600 !important;
+}
+
+/* Navigation */
+.fi-tabs {
+    @apply border-navy-200 !important;
+}
+
+.fi-tabs-item-active {
+    @apply border-navy-600 text-navy-700 !important;
+}
+
+/* Badges */
+.fi-badge {
+    @apply rounded-full !important;
+}
+
+.fi-badge-success {
+    @apply bg-emerald-100 text-emerald-700 !important;
+}
+
+.fi-badge-warning {
+    @apply bg-amber-100 text-amber-700 !important;
+}
+
+/* Select Inputs */
+.fi-select-input {
+    @apply bg-white text-navy-900 !important;
+}
+
+/* Textarea */
+.fi-textarea {
+    @apply bg-white text-navy-900 !important;
+} 
